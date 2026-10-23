@@ -3,7 +3,7 @@ print("1. Penjumlahan")
 print("2. Pengurangan")
 print("3. Perkalian")
 print("4. Pembagian")
-print("5. Keluar")
+print("5. Exit")
 command = ""
 
 while command != "5":

@@ -21,7 +21,7 @@ int main()
         printf(" = %d\n", equal);
         total = total + equal;
     }
-    printf("Total: %d\n", total);
+    printf("%d", total);
 
     return 0;
 }

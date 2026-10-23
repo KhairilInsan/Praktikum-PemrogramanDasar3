@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-long faktorial(int n)
+int faktorial(int n)
 {
     if (n == 0)
     {

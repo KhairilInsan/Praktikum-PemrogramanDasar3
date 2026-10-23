@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-long long step(int n)
+int step(int n)
 {
     if (n == 0)
     {
@@ -13,7 +13,7 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    printf("Jumlah langkah minimum untuk %d cakram adalah %lld\n", n, step(n));
+    printf("Jumlah langkah minimum untuk %d cakram adalah %d\n", n, step(n));
 
     return 0;
 }

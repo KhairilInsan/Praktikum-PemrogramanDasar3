@@ -13,4 +13,4 @@ for i in range(1, n + 1):
         equal = equal + j * multiples
     print(f"{multi} = {equal}")
     total = total + equal
-print(f"Total: {total}")
+print(f"{total}")

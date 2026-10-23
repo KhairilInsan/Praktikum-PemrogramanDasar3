@@ -20,7 +20,7 @@ int main()
     {
         if (i > 0)
         {
-            printf(" - ");
+            printf("- ");
         }
         printf("%d %d ", a + i * step, b - i * step);
     }
